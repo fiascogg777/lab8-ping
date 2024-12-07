@@ -12,6 +12,7 @@ struct Report {
     std::string patronymic; // Отчество автора
     std::string topic;     // Тема доклада
 
+
     // Конструктор по умолчанию
     Report() : start(0), end(0), surname(""), name(""), patronymic(""), topic("") {}
 
