@@ -3,7 +3,7 @@
 #include "file_reader.h"
 #include "sort.h"
 
-// Функция для фильтрации докладов по автору
+
 void filterByAuthor(const std::vector<Report>& reports, const std::string& surname,
     const std::string& name, const std::string& patronymic) {
     std::cout << "Доклады автора " << surname << " " << name << " " << patronymic << ":\n";
@@ -16,7 +16,6 @@ void filterByAuthor(const std::vector<Report>& reports, const std::string& surna
     }
 }
 
-// Функция для фильтрации докладов по длительности
 void filterByDuration(const std::vector<Report>& reports, int minDuration) {
     std::cout << "Доклады с длительностью больше " << minDuration << " минут:\n";
     for (const auto& report : reports) {
