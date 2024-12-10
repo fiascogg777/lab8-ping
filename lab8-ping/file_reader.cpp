@@ -1,4 +1,5 @@
 #include "file_reader.h"
+#include "constants.h"
 #include <fstream>
 #include <sstream>
 #include <iostream>
@@ -13,7 +14,12 @@ std::vector<Report> FileReader::readFromFile(const std::string& filename) {
     }
 
     std::string line;
-    while (std::getline(file, line)) {
+    while (std::getline(file, line) && reports.size() < MAX_FILE_ROWS_COUNT) {
+        if (line.length() > MAX_STRING_SIZE) {
+            std::cerr << "Ошибка: строка превышает максимальный размер " << MAX_STRING_SIZE << " символов.\n";
+            continue;
+        }
+
         std::istringstream iss(line);
         Report report;
 
