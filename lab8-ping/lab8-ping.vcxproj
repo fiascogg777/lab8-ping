@@ -129,10 +129,15 @@
   <ItemGroup>
     <ClCompile Include="file_reader.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="filter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="file_reader.h" />
+<<<<<<< HEAD
     <ClInclude Include="constants.h" />
+=======
+    <ClInclude Include="filter.h" />
+>>>>>>> dev
     <ClInclude Include="sort.h" />
     <ClInclude Include="Report.h" />
   </ItemGroup>
