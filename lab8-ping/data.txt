@@ -2,7 +2,4 @@
 1015 1045 Petrov Petr Petrovich Topic2
 0930 1030 Ivanov Ivan Ivanovich Topic3
 1100 1130 Sidorov Sidr Sidorovich Topic4
-0905 1000 Ivanov Ivan Ivanovich Topic1
-1015 1045 Petrov Petr Petrovich Topic2
-0935 1030 Ivanov Sergey Ivanovich Topic3
-1100 1130 Sidorov Sidr Sidorovich Topic4
+
