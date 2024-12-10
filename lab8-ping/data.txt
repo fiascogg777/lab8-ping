@@ -1,4 +1,8 @@
-09:00 09:30 Иванов Иван Иванович Тема 1
-09:40 10:10 Петров Петр Петрович Тема 2
-10:15 10:35 Иванов Иван Иванович Тема 3
-10:40 11:10 Сидоров Сидор Сидорович Тема 4
+0900 1000 Ivanov Ivan Ivanovich Topic1
+1015 1045 Petrov Petr Petrovich Topic2
+0930 1030 Ivanov Ivan Ivanovich Topic3
+1100 1130 Sidorov Sidr Sidorovich Topic4
+0905 1000 Ivanov Ivan Ivanovich Topic1
+1015 1045 Petrov Petr Petrovich Topic2
+0935 1030 Ivanov Sergey Ivanovich Topic3
+1100 1130 Sidorov Sidr Sidorovich Topic4
